@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top:0;
+
+
+
+
+
+    #check{
+        display: none;
+    }
+
+
+    label{
+         float: right;
+            
+    }
+    #btn{
+        color: midnightblue;
+         line-height: 30px;
+         margin: 30px 20px 0 0 ;
+         cursor: pointer;
+         display: none;
+    }  
+    
+    nav{
+    
+        background-color: white;
+        height: 90px;
+        border: thin solid grey;
+
+        .navbtn{
+        display: flex;
+        justify-content: space-between;
+        // padding:20px 50px;
+         }
+    }
+    
+
+    img{
+        margin: 10px 160px;
+        width: 80px;
+        height: 80px;
+    }
+    i{
+        margin: 0 0 0 5px;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    
+
+    ul{
+        list-style-type: none;
+        margin: 40px 0 40px -700px;
+        
+    }
+
+    li{
+        display: inline;
+
+
+
+        .dropdown{
+            display: block;
+            position: absolute;
+            margin: 15px 0;
+            display: block;
+            min-width: 250px;
+            min-height: 150px;
+            line-height: 30px;
+            padding: 0 30px;
+            border: thin  solid white;
+            box-shadow: 0px 5px 3px 2px rgba(0, 0, 0, 0.2);
+            border-top:medium solid rgb(12, 12, 94);
+            visibility: hidden;
+            z-index: -1;
+
+    
+
+        }
+       
+    }
+      li:hover .dropdown{
+        visibility: visible;
+        transition: 1s;
+        transform:translateY(13px);
+      }
+    a{
+        position: relative;
+        padding:30px 10px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: midnightblue;
+
+    }
+}
+ .section1{
+    margin-top: 91px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(245, 243, 240);
+    // min-height: 85vh;
+
+
+    .icons{
+        margin: 130px 0 0 0;
+        font-size: 20px;
+        line-height: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        // color:rgb(242, 242, 248);
+        width: 40px;
+        height: 125px;
+        position: fixed;
+    
+    }
+    .icon1{
+        color:white;
+        background-color: rgba(10, 41, 114, 0.883);
+        padding: 10px 10px;
+        width:50px;
+        border-radius: 0 5px 0 0;
+    }
+    .icons a{
+        color: white;
+    }
+
+
+      .icon1:hover{
+       transition: .5s;
+      transform: scaleX(.5)
+    
+    }
+    .icon2{
+        color:white;
+        background-color:rgb(9, 184, 243);
+        width: 50px;
+        padding: 10px 10px;
+
+
+    }
+    .icon2:hover{
+        transition: .5s;
+      transform: scaleX(.5)
+
+    }
+    .icon3{
+
+        background-color:rgb(26, 69, 121);
+        padding: 10 10px;
+        border-radius: 0 0 5px 0;
+        width: 50px;
+    }
+    .icon3:hover{
+        transition: .5s;
+      transform: scaleX(.5);
+    }
+     
+    
+
+    .text{
+        margin: 70px 0 0 80px;
+
+
+          h1{
+                color: rgb(20, 20, 66);
+                font-size: 60px;
+                font-weight: 800;
+                font-family:Arial, Helvetica, sans-serif;
+                line-height: 60px;
+        }
+        p{
+            margin-top: 10px;
+            padding: 0 0 0 0;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:rgb(101, 95, 95);
+            line-height: 30px;
+        }
+        button{
+            margin-top: 20px;
+            color: white;
+            width: 140px;
+            height: 60px;
+            background-color: rgb(5, 5, 137);
+            border-radius: 15px;
+            border: thin solid white;
+
+            a{
+                font-size: 15px;
+                color: white;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+            }
+        }
+        span{
+            background-color: rgb(77, 164, 77);
+            width: 50px;
+            height: 50px;
+            padding: 20px;
+            border-radius: 100%;
+            margin-left: -50px;
+            position: fixed;
+
+
+            i{
+                color: white;
+                font-size: 20px;
+                margin-top:-5px;
+                margin-left: -3px;
+                cursor: pointer;
+                
+            }
+        }
+           .help{
+            margin:18px 10px;
+            font-size: 13px;
+            cursor: pointer;
+            position: fixed;
+        
+        }
+
+    }
+    .bg{
+        background-image: url('https://edu.sqi.ng/wp-content/uploads/2023/06/bg-header-sqi-1.png');
+        min-width: 600px;
+        height: 85vh;
+        background-repeat: no-repeat;
+        margin: 0 10px 0 30px;
+        background-size: contain;
+        
+    }
+        
+}
+
+#section2{
+    display: flex;
+
+
+
+    .img1{
+        // margin: 50px 0 0 0;
+        width: 100%;
+        height: 100%;
+    
+        // padding: 50px;
+        
+    
+    }
+
+
+
+    .side{
+        // margin-left: 50px;
+        width:40%;
+       height: 100%;
+        font-weight: bold;
+        // border: thin solid black;
+        border-top:2px solid black;
+        border-bottom:2px solid black;
+        // margin: 50px 0 0 50px;
+        margin: 50px 30px;
+
+        .sidetext{
+            color: grey;
+            // font-size: 18px;
+            font-weight: lighter;
+            font-family:serif;
+            width:  80%;
+            
+            
+        }
+    }
+    
+
+
+}
+
+.section3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+
+
+      .background{
+        background-image: linear-gradient(180deg, rgb(128, 128, 128) 50%, rgb(128, 128, 128) 50%), url("https://edu.sqi.ng/wp-content/uploads/2023/06/college.jpg");
+        width: 300px;
+        height: 300px;
+        border: thin solid black;
+        background-size: cover;
+        background-blend-mode:saturation;
+    }
+     .background1{
+        background-image: linear-gradient(180deg, rgb(128, 128, 128) 50%, rgb(128, 128, 128) 50%), url("https://edu.sqi.ng/wp-content/uploads/2023/06/prof.jpg");
+        width: 300px;
+        height: 300px;
+        border: thin solid black;
+        background-size: cover;
+        background-blend-mode:saturation;
+
+     }
+     .background2{
+        background-image: linear-gradient(180deg, rgb(128, 128, 128) 50%, rgb(128, 128, 128) 50%), url("https://edu.sqi.ng/wp-content/uploads/2023/06/certificate.jpg");
+        width: 300px;
+        height: 300px;
+        border: thin solid black;
+        background-size: cover;
+        background-blend-mode:saturation;
+
+     }
+
+    .sec3h3{
+        margin: 50px 0;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        color: midnightblue;
+    }
+    .undertext{
+        color: rgba(66, 65, 65, 0.994);
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        margin-top: -30px;
+    }
+    .sec3btn{
+       border: none;
+        border-bottom: 2px solid midnightblue;
+        margin-top: 20px;
+    }
+    
+}
+.sub{
+    display: flex;
+    margin-left:150px ;
+    margin-top: 50px;
+
+    p{
+        border-bottom: thin solid skyblue;
+    }
+}
+#sec4{
+    margin-top: 100px;
+    
+    width: 100%;
+
+    .sec41{
+        display: flex;
+
+    }
+    
+
+
+    #card1{
+        width: 50%;
+        background-color: rgba(187, 229, 246, 0.806);
+        border-radius: 20px;
+        z-index: -5;
+        margin-left: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #reduce{
+        width: 80%;
+        // padding: 50px 20px 0 20px;
+        border-radius: 10px;
+        margin: 50px 50px 0 50px;
+
+    }
+    #card1text{
+        padding: 0 50px 0 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 100%;
+    }
+    #card1title{
+        padding: 0 20px 0 30px;
+        font-weight: bold;
+    }
+    #learn{
+        padding: 20px 0 0 20px;
+        
+    }
+}
+        
+    
+
+
+
+
+
+ 
+
+
+
+@media(max-width:1213px){
+    
+    
+    .img1{
+        visibility: hidden;
+    }
+    .side{
+        width: 100%;
+        // line-height: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .sidetext{
+        padding: 20px;
+    }
+    .section1{
+        width: 2000px;
+    }
+    .sub{
+        
+    }
+}
+@media(max-width:1226px){
+    .sub{
+        display: block;
+    }
+    .side{
+        width: 1000px;
+    }
+}
+
+@media(max-width:1079px){
+    .section3{
+        flex-wrap: wrap;
+        
+        
+    }
+    .sec3h3{
+        width: 100%;
+    }
+    .undertext{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:1000px){
+    label #btn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        min-height: 200px;
+        top:50px;
+        right:0;
+        background-color: white;
+        box-shadow: 0px 5px 3px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        border: thin solid white;
+        text-align: center;
+        transition: all .5s;
+        // display: none;
+    }
+    ul li{
+        display: block;
+        margin: 50px 0;
+    }
+
+     .dropdown{
+        visibility:visible;
+    }
+    #check:checked~ul{
+       right: 100px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+}
+@media (max-width:996px){
+   .section1{
+    flex-wrap: wrap;
+    
+   }
+}
+@media (max-width:861px){
+    .section1{
+        width: 1000px;
+    }
+}
+
+@media(max-width:756px){
+    ul{
+        display: none;
+    }
+
+}
+@media (max-width:661px){
+    
+    .bg{
+        width: 100%;
+        
+    }
+    .section1{
+        width: 1000px;
+    }
+}
+    
+    
+
+
+    
+    
+        
+
+
